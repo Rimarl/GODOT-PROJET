@@ -1,0 +1,11 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1701183427
+icon.svg::CompressedTexture2D::4412646915614069651::1700937715::1700937725::1::::<><>::
+world.tscn::PackedScene::4191760202215219297::1701181658::0::1::::<><>::uid://cd7dvt88xrcre::::res://world/bush.tscn<>uid://52fbnds7mnvn::::res://Player/player.tscn
+::res://Player/::1701181986
+Player.gd::GDScript::-1::1701181658::0::1::::<>CharacterBody2D<>::
+Player.png::CompressedTexture2D::5421803282181478662::1700939228::1701159962::1::::<><>::
+player.tscn::PackedScene::2161709567557375595::1701181986::0::1::::<><>::res://Player/Player.gd<>uid://cjimkp7tpye0u::::res://Player/Player.png
+::res://world/::1701160599
+Bush.png::CompressedTexture2D::691573187118504050::1700938535::1701160461::1::::<><>::
+bush.tscn::PackedScene::5049688689533488550::1701160599::0::1::::<><>::uid://j4adyn7worty::::res://world/Bush.png
