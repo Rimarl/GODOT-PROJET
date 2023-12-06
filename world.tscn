@@ -1,12 +1,13 @@
-[gd_scene load_steps=3 format=3 uid="uid://c5ft7ogoj13oe"]
+[gd_scene load_steps=4 format=3 uid="uid://c5ft7ogoj13oe"]
 
 [ext_resource type="PackedScene" uid="uid://cd7dvt88xrcre" path="res://world/bush.tscn" id="2_5arqb"]
 [ext_resource type="PackedScene" uid="uid://52fbnds7mnvn" path="res://Player/player.tscn" id="2_dy554"]
+[ext_resource type="PackedScene" uid="uid://5jrccvmoun5w" path="res://enemy.tscn" id="3_pbsyc"]
 
 [node name="world" type="Node2D"]
 
 [node name="Player" parent="." instance=ExtResource("2_dy554")]
-position = Vector2(97, 39)
+position = Vector2(88, 45)
 
 [node name="Bush" parent="." instance=ExtResource("2_5arqb")]
 position = Vector2(121, 92)
@@ -16,3 +17,6 @@ position = Vector2(269, 83)
 
 [node name="Bush3" parent="." instance=ExtResource("2_5arqb")]
 position = Vector2(168, 188)
+
+[node name="enemy" parent="." instance=ExtResource("3_pbsyc")]
+position = Vector2(205, 55)
