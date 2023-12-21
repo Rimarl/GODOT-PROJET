@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://gp4gquvgwl51"]
+
+[ext_resource type="Texture2D" uid="uid://b7rvfoktnodmo" path="res://world/Crate-animated.png" id="1_exus7"]
+
+[node name="dead_fx" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(257.141, 123)
+scale = Vector2(6.64276, 5.375)
+texture = ExtResource("1_exus7")
+hframes = 9
+
+[node name="anim" type="AnimationPlayer" parent="."]

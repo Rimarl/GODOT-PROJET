@@ -1,4 +1,6 @@
 res://world.tscn
 res://Player/player.tscn
-res://enemy.gd
-res://enemy.tscn
+res://world/enemy.tscn
+res://world/bush.tscn
+res://menu/menu.tscn
+res://win/win.tscn
